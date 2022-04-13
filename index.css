@@ -1,0 +1,41 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/** https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed2 **/
+.sidenav {
+  width: 25%;
+  height: 100%;
+  background: #eee;
+  overflow-x: hidden;
+  float: left;
+  padding: 1%;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  width: 70%;
+  float: right;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/*** **/
+
+#escapeBtn {
+	background: indianred;
+    border: 0;
+    padding: 3%;
+    border-radius: 2.5px;
+	color: white;
+}
+
+button {
+	cursor: pointer;
+}
